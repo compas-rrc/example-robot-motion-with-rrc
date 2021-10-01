@@ -1,0 +1,7 @@
+name: example-robot-motion-with-rrc
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - pip>=19.0
+  - compas_rrc
