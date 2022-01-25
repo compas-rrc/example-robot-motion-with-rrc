@@ -6,7 +6,7 @@ Robot Motion with RRC in Grasshopper
     :figclass: figure
     :class: figure-img img-fluid
 
-.. figure:: example-grasshopper-script.png
+.. figure:: grasshopper-script.png
     :figclass: figure
     :class: figure-img img-fluid
 
@@ -15,12 +15,12 @@ python API from Grasshopper.
 
 To run the example:
 
-* Run `python -m compas_rhino.install` to install compas packages to Rhino and 
+* Run ``python -m compas_rhino.install`` to install compas packages to Rhino and 
   Grasshopper. See `COMPAS - Rhino (Windows and Mac) <https://compas.dev/compas/latest/gettingstarted/rhino.html>`_
   for more details.
-* Start the robot where the RRC driver is installed
-* Start ROS driver using Docker (see example ``docker-compose.yml`` below)
-* Open ``grasshopper_script.ghx`` in Grasshopper
+* Start the robot where the RRC driver is installed.
+* Start ROS driver using Docker (see example ``docker-compose.yml`` below).
+* Open `grasshopper-script.ghx <./grasshopper-script.ghx>`_ in Grasshopper.
 
 For more details, check the `COMPAS RRC Start <https://github.com/compas-rrc/compas_rrc_start>`_ repository.
 
